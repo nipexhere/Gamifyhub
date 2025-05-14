@@ -31,6 +31,6 @@ const Workflow = () => {
         </div>
     </div>
 
-    )
+    );
 };
 export default Workflow;
