@@ -3,7 +3,7 @@ import codeImg from "../assets/vrimg.jpeg";
 import { checklistItems } from "../constants";
 
 
-const Workflow = () => {
+const WorkFlow = () => {
     return ( <div className =" mt-20">
         <h2 className ="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide"> Boost your {" "}
             <span className="bg-gradient-to-r from-red-500 to-red-800 
@@ -33,4 +33,4 @@ const Workflow = () => {
 
     );
 };
-export default Workflow;
+export default WorkFlow;
