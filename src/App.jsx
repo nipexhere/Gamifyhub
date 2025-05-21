@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
-import WorkFlow from './components/WorkFlow';
+import WorkFlow from "./components/WorkFlow";
 import FadeText from './components/FadeText';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
