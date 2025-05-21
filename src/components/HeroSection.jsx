@@ -1,3 +1,4 @@
+import {motion} from 'framer-motion'
 import video1 from "../assets/cute.mp4"
 import video2 from "../assets/cutesy.mp4"
 

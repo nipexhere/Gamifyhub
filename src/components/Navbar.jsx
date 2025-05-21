@@ -3,6 +3,7 @@ import {Menu, X} from "lucide-react";
 import { useState } from 'react';
 import logo from "../assets/logo.png";
 import { navItems } from '../constants';
+import {motion} from 'framer-motion'
 
 
 const Navbar = () => {
@@ -29,13 +30,19 @@ const Navbar = () => {
     )}
 </ul>
 <div className="hidden lg:flex justify-center space-x-12 items-center">
-    <a href="a" className="py-2 px-3 border rounded-md">
+    <motion.a 
+    whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+  href="a" className="py-2 px-3 border rounded-md">
         Sign In
-    </a>
-    <a href ="a" className='bg-gradient-to-r from-red-500 to-red-800 
+    </motion.a>
+    <motion.a 
+    whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+  href ="a" className='bg-gradient-to-r from-red-500 to-red-800 
     py-2 px-3 rounded-md'>
         Create Account
-    </a>
+    </motion.a>
     </div>
     <div className="lg:hidden md:flex flex-col justify-end">
         <button onClick={toggleNavbar}>

@@ -1,17 +1,11 @@
 import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 import {Tv2 } from "lucide-react";
 import {Users} from "lucide-react";
 import {PlayCircle} from "lucide-react";
 
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
 
 export const navItems = [
   { label: "Realities", href: "#" },
